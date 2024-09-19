@@ -1,0 +1,35 @@
+.header {
+    height: 70px;
+    background-color: rgb(51, 51, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.button {
+    height: 30px;
+    width: 60px;
+    border: none;
+    background-color: rgb(19, 136, 231);
+    color: white;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.button:hover {
+    background-color: rgb(71, 71, 247);
+}
