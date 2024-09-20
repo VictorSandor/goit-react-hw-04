@@ -51,6 +51,7 @@ function App() {
       return;
     }
     setGallery([]);
+    setCurrentPageUrl(1);
     setSearchImages(form.elements.input.value);
     form.reset();
   };
